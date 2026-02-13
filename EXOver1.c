@@ -18,6 +18,7 @@ int main (){
     }
 
     moy = som/cpt;
+    printf("le moyenne est :%f",moy) ;
 
 
 return 0 ;
