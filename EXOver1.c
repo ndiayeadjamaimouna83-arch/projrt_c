@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (){
-    int x,n,som,cpt ;
+    int x,n,som,cpt,imp ;
     float moy;
     do{
             printf("saisir n entiers : ");
@@ -19,6 +19,9 @@ int main (){
 
     moy = som/cpt;
     printf("le moyenne est :%f",moy) ;
+    imp==n-som;
+    printf(" les nombre imp sont : %d" ,imp);
+
 
 
 return 0 ;
